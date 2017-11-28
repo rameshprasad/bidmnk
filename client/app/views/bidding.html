@@ -1,0 +1,35 @@
+﻿<div class="panel panel-default panel-table">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col col-xs-12">
+                <h3 class="panel-title" data-bind="text: pageHeading" style="font-weight: bold;"></h3>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body panelBodyContent">
+        <div class="table-responsive">
+            <table class="table table-bordered table-list">
+                <thead class="tableHeader">
+                    <tr>
+                        <th style="width:60%; border-bottom-width: 0px;">Name</th>
+                        <th style="width:20%; border-bottom-width: 0px; text-align: right;">Bid Amount</th>
+                        <th style="width:20%; border-bottom-width: 0px; text-align: right;">Win Amount</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: formDataArray">
+                    <tr data-bind="css: rowClass">
+                        <td class="custom-table-cell">
+                            <span data-bind="text: bidderName" />
+                        </td>
+                        <td class="custom-table-cell right-allign-cell">
+                            <span data-bind="text: bidAmount" />
+                        </td>
+                        <td class="custom-table-cell right-allign-cell">
+                            <span data-bind="text: winAmount" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

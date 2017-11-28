@@ -1,0 +1,54 @@
+﻿.page-host {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    margin: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+section {
+    margin: 0 20px;
+}
+
+.default-grid-text {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.panelBodyContent {
+    padding: 0px !important;
+    overflow: auto;
+}
+
+.div-form-control {
+    height: 25px;
+}
+
+    .div-form-control:hover {
+        border: solid;
+        border-width: thin;
+        border-color: lightgray;
+        height: 25px;
+    }
+
+.tableHeader {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+    border-bottom-width: 0px;
+}
+
+.btn {
+    padding: 2px 7px !important;
+}
+
+.form-control {
+    height: 30px;
+    padding: 3px 7px;
+}
+

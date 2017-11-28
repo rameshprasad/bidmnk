@@ -1,0 +1,33 @@
+﻿.custom-table-header {
+    font-size: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-weight: bold !important;
+}
+
+.custom-table-row {
+    border: solid !important;
+    border-width: thin !important;
+    border-color: lightgray !important;
+    border-top: none !important;
+    padding: 4px 0 4px 0 !important;
+    
+}
+
+.custom-table-cell {
+    vertical-align: middle;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.right-allign-cell {
+    text-align: right;
+}
+
+.normal-row-background {
+    background-color: white;
+}
+
+.highlighted-row-background {
+    background-color: coral;
+}
